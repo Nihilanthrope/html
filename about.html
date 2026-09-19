@@ -1,81 +1,154 @@
 <!DOCTYPE html>
-<html lang = "en">
+
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "Stylesheet" href = "style.css" />i
 
-    <title>About Me</title>
+```
+<link rel="stylesheet" href="style.css">
+
+<title>About Me</title>
+```
+
 </head>
-    <body>
-        <h1>About Me</h1>
-        <img src="Ryo Yamada.jpeg" width="300" height="300"/>
-        <p class="about-me-intro">Hi, I'm nihilanthrope as idk wtf-!</p>
-        <p class="about-me-bio">wt done is done</p>
-    </body>
 
 <body>
-    <ul>
-        <li>Introduction
-            <ol>
-                <li>Name [xyz]</li>
-                <li>Education [Xyz]</li>
-                <li>Work Experience [Xyz]</li>
-            </ol>
-        </li>
-        <li>Biography
-            <OL>
-                <li>Dead</li>
-                <li>Career khatam</li>
-                <li>Achievements Hai he Nhi</li>
-            </OL>
 
-        </li>
-        <li>Interests
-            <ol>
-                <li>Gaming</li>
-                <li>Biwi Ko Parshan Krna</li>
-                <li>Befaltu ki chize krna</li>
-            </ol>
-        </li>
-    </ul>
+```
+<h1>About Me</h1>
 
+<img src="Ryo Yamada.jpeg" width="300" height="300" alt="Ryo Yamada">
 
-</body>
-<body>
-    <div>
-    <from action = "https://example.com">
+<p class="about-me-intro">
+    Hi, I'm nihilanthrope as idk wtf-!
+</p>
+
+<p class="about-me-bio">
+    wt done is done
+</p>
+
+<ul>
+
+    <li>
+        Introduction
+        <ol>
+            <li>Name [xyz]</li>
+            <li>Education [Xyz]</li>
+            <li>Work Experience [Xyz]</li>
+        </ol>
+    </li>
+
+    <li>
+        Biography
+        <ol>
+            <li>Dead</li>
+            <li>Career khatam</li>
+            <li>Achievements Hai he Nhi</li>
+        </ol>
+    </li>
+
+    <li>
+        Interests
+        <ol>
+            <li>Gaming</li>
+            <li>Biwi Ko Parshan Krna</li>
+            <li>Befaltu ki chize krna</li>
+        </ol>
+    </li>
+
+</ul>
+
+<div>
+
+    <form action="https://example.com">
+
         <h2>Contact Me</h2>
-        <label for = "name">Name:</label>
-        <input id = "name" PlaceHolder = "Enter Your Name" required type = "text"/>
+
+        <label for="name">Name:</label>
+        <input
+            id="name"
+            name="name"
+            placeholder="Enter Your Name"
+            required
+            type="text"
+        >
+
         <br>
-        <label for = "age">Age:</label>
-        <input id = "age" PlaceHolder = "Enter Your Age" required type = "Number"/>
+
+        <label for="age">Age:</label>
+        <input
+            id="age"
+            name="age"
+            placeholder="Enter Your Age"
+            required
+            type="number"
+        >
+
         <br>
-        <label for = "email">Email:</label>
-        <input id = "email" PLaceHolder = "Enter Your Email" required type = "Email"/>
+
+        <label for="email">Email:</label>
+        <input
+            id="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+            type="email"
+        >
+
         <br>
-        <label for = "dob">Date of Birth:</label>
-        <input id = "dob" PlaceHolder = "Enter Your Date of Birth" required type = "Date"/>
+
+        <label for="dob">Date of Birth:</label>
+        <input
+            id="dob"
+            name="dob"
+            required
+            type="date"
+        >
+
         <br>
-        <label for = "about">About You:</label>
+
+        <label for="about">About You:</label>
         <br>
-        <textarea id="About You" PlaceHolder = "About You Minimum 25 Characters"rows = "5" cols = "30"></textarea>
+
+        <textarea
+            id="about"
+            name="about"
+            placeholder="Tell us about yourself"
+            minlength="25"
+            rows="5"
+            cols="30"
+            required
+        ></textarea>
+
         <br>
-        <select>
-            <option> Male</option>
-            <option> Female</option>
-            <option> Other</option>
+
+        <label for="gender">Gender:</label>
+
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
         </select>
-        <input type = "submit"/>
-    </from>
-    </div>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</div>
+
+<video
+    width="300"
+    height="600"
+    autoplay
+    controls
+    src="https://www.pexels.com/download/video/31428212/"
+></video>
+```
+
 </body>
 
-<body>
-    <video width="300" height="600" autoplay controls src ="https://www.pexels.com/download/video/31428212/" />
-    
-
-
-</body>
+</html>
